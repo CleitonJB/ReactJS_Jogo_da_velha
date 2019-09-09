@@ -1,0 +1,47 @@
+.square{
+    border: 1px solid black;
+    margin: 5px;
+    background: gray;
+    width: 17%;
+    height: 180px;
+}
+
+/* Mudando */
+h1{
+    font-size: 3em;
+    color: black;
+    text-shadow: 5px 5px 4px gray;
+}
+
+.game{
+    text-align: center;
+}
+
+.Quadro{
+    margin: auto;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.65);
+    border: 3px solid black;
+}
+
+.board-row{
+   position: relative;
+   float: center;
+   display: flex;
+}
+
+.game-info{
+    margin: 20px auto;
+    position: relative;
+    float: center;
+}
+
+.Status{
+    margin: auto;
+    background: rgba(0, 0, 0, 0.65);
+    width: 30%;
+    padding: 5px 4px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: yellow;
+}
